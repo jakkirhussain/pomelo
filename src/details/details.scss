@@ -1,0 +1,18 @@
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
+
+.details .detail-heading {
+  font-style: italic;
+  font-weight: 600;
+}
+.details > * {
+  margin-bottom: $carbon--spacing-06;
+}
+.details .abstract {
+  color: $text-03;
+}
+.details .by-line {
+  font-weight: bold;
+}

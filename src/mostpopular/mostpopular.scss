@@ -1,0 +1,32 @@
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
+.most-popular {
+  margin-top: $carbon--spacing-05;
+}
+.heading-bar {
+  border-bottom: 1px solid green;
+  padding: $carbon--spacing-05 0;
+}
+.heading {
+  @include carbon--font-weight("semibold");
+}
+.greeting {
+  line-height: 50px;
+  vertical-align: middle;
+}
+.card-cont {
+  margin: $carbon--spacing-04 0;
+  display: flex;
+}
+.card {
+  border: 1px solid $ui-04;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0px 0px 5px $ui-04;
+  cursor: pointer;
+}
+.card-copy {
+  padding: $carbon--spacing-05;
+}

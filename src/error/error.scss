@@ -1,0 +1,20 @@
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
+
+.error-page {
+  background-color: $ui-01;
+  padding: $carbon--spacing-04;
+}
+.bottom-space {
+  margin-bottom: $carbon--spacing-04;
+}
+
+svg.my-custom-class {
+  fill: red;
+}
+.error-description {
+  font-weight: bold;
+  font-size: 2rem;
+}

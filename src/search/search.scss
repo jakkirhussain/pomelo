@@ -1,0 +1,29 @@
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
+.search-result-cont {
+  padding: $carbon--spacing-06 0;
+  border-bottom: 1px solid $ui-04;
+}
+
+.search-detail > * {
+  margin-bottom: $carbon--spacing-03;
+  cursor: pointer;
+}
+
+.news_desk {
+  @include carbon--type-style("helper-text-01");
+}
+
+img {
+  max-width: 100%;
+}
+
+.search-result-cont a {
+  color: black;
+  text-decoration: none;
+}
+.search-detail a {
+  display: block;
+}

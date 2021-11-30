@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1638294733864" clover="3.2.0">
+  <project timestamp="1638294733864" name="All files">
+    <metrics statements="120" coveredstatements="38" conditionals="44" coveredconditionals="22" methods="57" coveredmethods="18" elements="221" coveredelements="78" complexity="0" loc="120" ncloc="120" packages="7" files="14" classes="14"/>
+    <package name="src">
+      <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="App.js" path="/Users/jakkirhussain/Desktop/pomelo/src/App.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/jakkirhussain/Desktop/pomelo/src/index.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.js" path="/Users/jakkirhussain/Desktop/pomelo/src/reportWebVitals.js">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.apis">
+      <metrics statements="38" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="apis.js" path="/Users/jakkirhussain/Desktop/pomelo/src/apis/apis.js">
+        <metrics statements="38" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="9915" count="4" type="stmt"/>
+        <line num="11105" count="4" type="stmt"/>
+        <line num="12174" count="4" type="stmt"/>
+        <line num="12175" count="0" type="stmt"/>
+        <line num="12176" count="0" type="stmt"/>
+        <line num="12177" count="0" type="stmt"/>
+        <line num="12180" count="0" type="stmt"/>
+        <line num="12181" count="0" type="stmt"/>
+        <line num="12184" count="0" type="stmt"/>
+        <line num="12185" count="0" type="stmt"/>
+        <line num="12186" count="0" type="stmt"/>
+        <line num="12187" count="0" type="stmt"/>
+        <line num="12189" count="0" type="stmt"/>
+        <line num="12190" count="0" type="stmt"/>
+        <line num="12194" count="4" type="stmt"/>
+        <line num="12195" count="0" type="stmt"/>
+        <line num="12196" count="0" type="stmt"/>
+        <line num="12197" count="0" type="stmt"/>
+        <line num="12200" count="0" type="stmt"/>
+        <line num="12201" count="0" type="stmt"/>
+        <line num="12202" count="0" type="stmt"/>
+        <line num="12203" count="0" type="stmt"/>
+        <line num="12204" count="0" type="stmt"/>
+        <line num="12206" count="0" type="stmt"/>
+        <line num="12207" count="0" type="stmt"/>
+        <line num="12211" count="4" type="stmt"/>
+        <line num="12212" count="0" type="stmt"/>
+        <line num="12213" count="0" type="stmt"/>
+        <line num="12214" count="0" type="stmt"/>
+        <line num="12217" count="0" type="stmt"/>
+        <line num="12219" count="0" type="stmt"/>
+        <line num="12220" count="0" type="stmt"/>
+        <line num="12221" count="0" type="stmt"/>
+        <line num="12222" count="0" type="stmt"/>
+        <line num="12224" count="0" type="stmt"/>
+        <line num="12225" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.details">
+      <metrics statements="21" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <file name="Details.js" path="/Users/jakkirhussain/Desktop/pomelo/src/details/Details.js">
+        <metrics statements="18" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+      <file name="Detailswrapper.js" path="/Users/jakkirhussain/Desktop/pomelo/src/details/Detailswrapper.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.error">
+      <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ErrorFallback.js" path="/Users/jakkirhussain/Desktop/pomelo/src/error/ErrorFallback.js">
+        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="errorhandler.js" path="/Users/jakkirhussain/Desktop/pomelo/src/error/errorhandler.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.home">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Home.js" path="/Users/jakkirhussain/Desktop/pomelo/src/home/Home.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mostpopular">
+      <metrics statements="16" coveredstatements="13" conditionals="11" coveredconditionals="10" methods="11" coveredmethods="8"/>
+      <file name="MostPopularWrapper.js" path="/Users/jakkirhussain/Desktop/pomelo/src/mostpopular/MostPopularWrapper.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="Mostpopular.js" path="/Users/jakkirhussain/Desktop/pomelo/src/mostpopular/Mostpopular.js">
+        <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="10" methods="8" coveredmethods="8"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="45" count="160" type="stmt"/>
+        <line num="50" count="144" type="stmt"/>
+        <line num="52" count="432" type="stmt"/>
+        <line num="55" count="144" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="src.search">
+      <metrics statements="30" coveredstatements="18" conditionals="13" coveredconditionals="12" methods="20" coveredmethods="10"/>
+      <file name="Search.js" path="/Users/jakkirhussain/Desktop/pomelo/src/search/Search.js">
+        <metrics statements="24" coveredstatements="15" conditionals="11" coveredconditionals="10" methods="14" coveredmethods="7"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="14" count="16" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="32" count="16" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="16" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="62" count="16" type="stmt"/>
+        <line num="63" count="12" type="stmt"/>
+        <line num="64" count="12" type="stmt"/>
+        <line num="65" count="12" type="stmt"/>
+        <line num="69" count="16" type="stmt"/>
+        <line num="76" count="16" type="stmt"/>
+        <line num="106" count="80" type="stmt"/>
+      </file>
+      <file name="Searchresults.js" path="/Users/jakkirhussain/Desktop/pomelo/src/search/Searchresults.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="4" count="40" type="stmt"/>
+        <line num="29" count="2660" type="stmt"/>
+        <line num="32" count="36" type="stmt"/>
+      </file>
+      <file name="Searchwrapper.js" path="/Users/jakkirhussain/Desktop/pomelo/src/search/Searchwrapper.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
