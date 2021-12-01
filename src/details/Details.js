@@ -17,7 +17,7 @@ function Results(props) {
       setLoadingState(false);
       setSearchResults(data.response.docs);
     }, handleError);
-  });
+  }, []);
 
   const loadingProps = () => ({
     active: true,

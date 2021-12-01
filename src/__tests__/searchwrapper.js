@@ -1,12 +1,12 @@
 import React from "react";
 import "@testing-library/jest-dom/extend-expect";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import axios from "axios";
 import userEvent from "@testing-library/user-event";
 
 import { fetchSearchResults } from "../apis/apis";
 
-import Search from "../search/Search";
+import Searchwrapper from "../search/Searchwrapper";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -9928,13 +9928,13 @@ afterEach(() => {
   jest.clearAllMocks();
 });
 
-describe("search component rendered or not", () => {
+describe("search wrapper component rendered or not", () => {
   test("search input rendered or not", async () => {
     fetchSearchResults.mockResolvedValue(searchResult);
 
     render(
       <Router>
-        <Search />
+        <Searchwrapper />
       </Router>
     );
 
@@ -9946,7 +9946,7 @@ describe("search component rendered or not", () => {
     fetchSearchResults.mockResolvedValue(searchResult);
     render(
       <Router>
-        <Search />
+        <Searchwrapper />
       </Router>
     );
 

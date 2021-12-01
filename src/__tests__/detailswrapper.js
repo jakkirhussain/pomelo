@@ -6,7 +6,7 @@ import userEvent from "@testing-library/user-event";
 
 import { fetchArticleDetail } from "../apis/apis";
 
-import Details from "../details/Details";
+import Detailswrapper from "../details/Detailswrapper";
 import { BrowserRouter as Router, useLocation } from "react-router-dom";
 
 jest.mock("../apis/apis");
@@ -1105,7 +1105,7 @@ describe("details component rendered or not", () => {
     fetchArticleDetail.mockResolvedValue(detailsResult);
     render(
       <Router>
-        <Details />
+        <Detailswrapper />
       </Router>
     );
     let textArr = await screen.findAllByText(/Holly/i);

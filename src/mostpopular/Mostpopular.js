@@ -22,7 +22,7 @@ function Mostpopular({ doc }) {
       setLoadingState(false);
       setMostPopular(data.results);
     }, handleError);
-  });
+  }, []);
 
   return (
     <div className="bx--grid most-popular">

@@ -12172,56 +12172,37 @@ const response2 = {
 };
 
 const fetchSearchResults = async (query, page) => {
-  return new Promise((resolve) =>
-    setTimeout(() => {
-      resolve(response);
-    }, 1000)
-  );
-  return response;
   let url = `https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=${apiKey}&q=${query}&page=${
     page - 1
   }`;
   try {
     const response = await axios.get(url);
-    console.log(response.data);
+
     return response.data;
   } catch (error) {
-    console.error(error);
     throw error;
   }
 };
 
 const fetchMostPopularResults = async (query, page) => {
-  return new Promise((resolve) =>
-    setTimeout(() => {
-      resolve(response1);
-    }, 1000)
-  );
   let url = `https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=${apiKey}`;
   try {
     const response = await axios.get(url);
-    console.log(response.data);
+
     return response.data;
   } catch (error) {
-    console.error(error);
     throw error;
   }
 };
 
 const fetchArticleDetail = async (query) => {
-  return new Promise((resolve) =>
-    setTimeout(() => {
-      resolve(response2);
-    }, 1000)
-  );
-  let url = `https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=${apiKey}&fq=web_url:${query}`;
+  let url = `https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=${apiKey}&fq=web_url:("${query}")`;
 
   try {
     const response = await axios.get(url);
-    console.log(response.data);
+
     return response.data;
   } catch (error) {
-    console.error(error);
     throw error;
   }
 };
