@@ -33,8 +33,9 @@ function SearchComponent(props) {
     event.preventDefault();
     setLoadingState(true);
     fetchSearchResults(searchTerm, 1).then((results) => {
+      debugger;
       setLoadingState(false);
-      setSearchResults(results);
+      setSearchResults(results.response.docs);
     }, handleError);
   };
 
